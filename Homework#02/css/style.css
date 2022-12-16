@@ -1,0 +1,50 @@
+/* First task */
+blockquote {
+    color: red;
+}
+
+/* Second task */
+.holder a[href^='https'] {
+    color: red;
+}
+
+.list > li:last-child a{
+    background-color:green;
+}
+
+.holder ul + p {
+    font-size: 26px;
+}
+
+/* Third task */
+#greycol {
+    color: grey;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.text-box h3:first-child{
+    color: pink;
+}
+
+.text-box div p {
+    color:red;
+}
+
+.text-box p:nth-last-child(2){
+    color: green;
+}
+
+/* Fourth task */
+.bg-box {
+    height: 100vh;
+    background: url(../img/main-center.jpg) no-repeat center, 
+                url(../img/top-x.png) repeat-x, 
+                url(../img/bottom-x.png) repeat-x bottom,
+                url(../img/right-y.png) repeat-y right,
+                url(../img/left-y.webp) repeat-y left;
+    background-size: auto, 4%, 25%, 3%, 3%;
+    background-color: green;
+}

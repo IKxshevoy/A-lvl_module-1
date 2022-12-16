@@ -1,0 +1,48 @@
+/* BASE */
+h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Second task */
+
+.second-task {
+    width: 350px;
+    height: 220px;
+    padding: 15px 10px 20px 10px;
+    margin-bottom: 30px;
+    border: 2px dotted red;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-task p {
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+/* Third task */
+
+.third-task {
+    display: flex;
+    justify-content: center;
+}
+
+.third-task p {
+    max-width: 70%;
+}
+
+.third-task .top-left {
+    float: left;
+    margin: 0 20px 10px 0;
+}
+
+.third-task .bottom-right {
+    width: 200px;
+    height: 115px;
+    float: right;
+    margin: 20px 0 20px 10px;
+}
